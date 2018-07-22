@@ -1,6 +1,6 @@
 public class QuickSort {
 
-    private static int[] array = {14, 26, 12};
+    private static int[] array = {45,23,11,89,77,98,4,28,65,43};
 
     private static void quickSort(int lowerIndex, int higherIndex) {
 
@@ -44,7 +44,6 @@ public class QuickSort {
 
         quickSort(0, array.length - 1);
 
-        //Print sorted array.
         //Print sorted array.
         System.out.print("Sorted array   :");
         for (int anInput : array) {

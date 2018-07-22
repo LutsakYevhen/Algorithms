@@ -10,14 +10,11 @@ public class BubbleSort {
         }
         System.out.println();
 
-        //Sort array.
-        int k;
-
         for (int i = 0; i <= array.length; i++) {
 
             for (int j = 0; j < array.length - 1; j++) {
 
-                k = j + 1;
+                int k = j + 1;
 
                 if (array[j] > array[k]) {
 
